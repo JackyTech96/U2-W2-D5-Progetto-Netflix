@@ -1,0 +1,45 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "./bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$dark: #141414;
+$form-check-input-width: 2em;
+$form-check-input-height: 2em;
+$form-check-input-bg: $dark;
+// 3. Include remainder of required Bootstrap stylesheets
+@import "./bootstrap/scss/variables";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "./bootstrap/scss/maps";
+@import "./bootstrap/scss/mixins";
+@import "./bootstrap/scss/utilities";
+
+// Layout & components
+@import "./bootstrap/scss/root";
+@import "./bootstrap/scss/reboot";
+@import "./bootstrap/scss/type";
+@import "./bootstrap/scss/images";
+@import "./bootstrap/scss/containers";
+@import "./bootstrap/scss/grid";
+@import "./bootstrap/scss/forms";
+@import "./bootstrap/scss/buttons";
+@import "./bootstrap/scss/dropdown";
+@import "./bootstrap/scss/button-group";
+@import "./bootstrap/scss/nav";
+@import "./bootstrap/scss/navbar";
+@import "./bootstrap/scss/pagination";
+@import "./bootstrap/scss/badge";
+@import "./bootstrap/scss/progress";
+@import "./bootstrap/scss/list-group";
+@import "./bootstrap/scss/close";
+@import "./bootstrap/scss/carousel";
+@import "./bootstrap/scss/placeholders";
+
+// Helpers
+@import "./bootstrap/scss/helpers";
+
+// Utilities
+@import "./bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
